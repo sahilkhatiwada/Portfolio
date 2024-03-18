@@ -59,7 +59,7 @@ router.post(
     }
 
     // generate token and send response
-    const token = jwt.sign({ email: user.email }, "my_secret_key", {
+    const token = jwt.sign({ email: user.email }, "mysecretkey", {
       expiresIn: "24h",
     });
 

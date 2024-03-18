@@ -6,7 +6,7 @@
   "author": "[Sahil khatiwada] <sahilkhatiwada12@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index..js"
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
